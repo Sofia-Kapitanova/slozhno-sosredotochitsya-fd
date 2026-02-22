@@ -393,11 +393,8 @@
   }
 
   .section_causes .section__content {
-    grid-column: 1;
-  }
-
-  .section_causes .section__content {
     grid-template-columns: repeat(3, 1fr);
+    grid-column: 1;
     gap: 20px;
   }
 
